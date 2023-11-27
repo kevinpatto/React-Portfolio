@@ -10,12 +10,13 @@ import AboutMePage from './pages/AboutMePage';
 import ContactPage from './pages/ContactPage';
 import PortfolioPage from './pages/PortfolioPage';
 import ResumePage from './pages/ResumePage';
+import RedirectPage from './pages/RedirectPage';
 
 const router = createBrowserRouter([
 	{
 		path: '/',
 		element: <App />,
-		errorElement: <PortfolioPage />,
+		errorElement: <RedirectPage />,
 		children: [
 			{
 				index: true,
