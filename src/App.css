@@ -1,0 +1,10 @@
+:root {
+	--primary: #CDCDCD;
+	--secondary: #011638;
+	--tertiary: #364156;
+	background-color: var(--primary);
+}
+
+.bg-header {
+	background-color: var(--secondary);
+}
